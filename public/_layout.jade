@@ -1,0 +1,23 @@
+doctype
+html
+  head
+    title mmcc
+    link(rel="stylesheet" href="/css/main.css")
+  body
+    .sidebar
+      .content
+        h1 mmcc
+        
+        .nav
+          ul
+            li 
+              a(href='#') words
+            li 
+              a(href='#') code
+            li 
+              a(href='#') images
+            li 
+              a(href='#') contact
+
+    .content.main
+      != yield

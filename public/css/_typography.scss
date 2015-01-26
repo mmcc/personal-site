@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|VT323);
+
+%text-standard {
+  font-family: 'Open Sans', sans-serif;
+}
+
+%text-monospace {
+  font-family: 'VT323', monospace;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+
+  @include transition(color 0.1s ease-in-out);
+
+  &:hover {
+    color: $lightest;
+  }
+}
