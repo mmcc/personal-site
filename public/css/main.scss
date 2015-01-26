@@ -1,7 +1,8 @@
-@import '../../node_modules/normalize-sass/normalize';
-
+// Normalize all the things and bring in variables
+@import 'normalize';
 @import 'variables';
 
+// Just in case we need some bourbon / neat in our lives
 @import '../../node_modules/node-bourbon/assets/stylesheets/bourbon';
 @import '../../node_modules/node-neat/assets/stylesheets/neat';
 
