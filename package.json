@@ -10,10 +10,12 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.3.0",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-harp": "^0.1.4",
     "node-bourbon": "^1.2.3",
-    "node-neat": "^1.3.0",
-    "normalize-sass": "^1.0.0",
-    "normalize-scss": "^3.0.1-a",
-    "grunt": "^0.4.5"
+    "node-neat": "^1.3.0"
   }
 }
