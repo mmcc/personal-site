@@ -44,7 +44,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-concurrent');
 
   // Default task(s).
-  grunt.registerTask('default', ['browserify']);
-  grunt.registerTask('build', ['browserify', 'harp:dist']);
+  grunt.registerTask('default', ['browserify', 'harp:dist']);
   grunt.registerTask('dev', ['concurrent']);
 };
