@@ -1,0 +1,48 @@
+.nav {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: $lightest;
+
+    @include transition(background-color 0.1s ease-in-out);
+
+    &:hover { background-color: $light; }
+
+    a {
+      line-height: 50px;
+    }
+  }
+
+  @extend %text-monospace;
+}
+
+.sidebar {
+  background-color: $base;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: $sidebar-width;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+    line-height: $header-height;
+    color: $white;
+  }
+}
+
+.content {
+  @include outer-container;
+}
+
+.content.main {
+  margin-left: $sidebar-width;
+  padding: 0 20px;
+}
