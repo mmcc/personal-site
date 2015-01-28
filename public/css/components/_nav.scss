@@ -15,34 +15,11 @@
     &:hover { background-color: $light; }
 
     a {
+      display: block;
+      width: 100%;
       line-height: 50px;
     }
   }
 
   @extend %text-monospace;
-}
-
-.sidebar {
-  background-color: $base;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: $sidebar-width;
-  text-align: center;
-
-  h1 {
-    margin: 0;
-    line-height: $header-height;
-    color: $white;
-  }
-}
-
-.content {
-  @include outer-container;
-}
-
-.content.main {
-  margin-left: $sidebar-width;
-  padding: 0 20px;
 }
