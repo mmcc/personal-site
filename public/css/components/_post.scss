@@ -1,0 +1,9 @@
+section.post {
+  width: 100%;
+  .post-header {
+    display: flex;
+    width: 100%;
+
+    h1 { float: left; }
+  }
+}
