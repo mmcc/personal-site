@@ -22,3 +22,16 @@
   margin-left: $sidebar-width;
   padding: 0 20px;
 }
+
+.primary-container {
+  @include display(flex);
+  @include flex-direction(row);
+  @include justify-content(flex-start);
+}
+
+.primary-container a {
+  @include flex(1);
+  text-align: center;
+  background-color: $lightest;
+  padding: 2em 0;
+}
