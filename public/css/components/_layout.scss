@@ -24,13 +24,14 @@
 }
 
 .primary-container {
-  @include display(flex);
-  @include flex-direction(row);
-  @include justify-content(flex-start);
+  height: 100%;
 }
 
 .primary-container a {
-  @include flex(1);
+  display: block;
+  float: left;
+  width: 50%;
+  height: 50%;
   text-align: center;
   background-color: $lightest;
   padding: 2em 0;
