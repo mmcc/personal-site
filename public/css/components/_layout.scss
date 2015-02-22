@@ -42,4 +42,13 @@
   text-align: center;
   background-color: $lightest;
   padding: 0;
+  color: #fff;
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+
+  &:hover {
+    background-color: $light;
+  }
 }
